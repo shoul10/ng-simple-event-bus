@@ -1,7 +1,7 @@
 {
 	"name": "ng-simple-event-bus",
 	"id": "ng-simple-event-bus",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A simple and lightweight library to trigger events through the Angular apps",
 	"homepage": "https://github.com/shoul10/ng-simple-event-bus",
 	"author": {
