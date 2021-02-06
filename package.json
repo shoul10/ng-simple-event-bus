@@ -1,0 +1,46 @@
+{
+	"name": "ng-simple-event-bus",
+	"id": "ng-simple-event-bus",
+	"version": "1.0.0",
+	"description": "A simple and lightweight library to trigger events through the Angular apps",
+	"homepage": "https://github.com/shoul10/ng-simple-event-bus",
+	"author": {
+		"name": "Mohammed Shoul",
+		"email": "moshoul10@gmail.com",
+		"url": "https://github.com/shoul10"
+	},
+	"bugs": {
+    "email": "moshoul10@gmail.com",
+    "url": "https://github.com/shoul10/ng-simple-event-bus/issues"
+  },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/shoul10/ng-simple-event-bus.git"
+	},
+	"license": "MIT",
+	"peerDependencies": {
+		"@angular/common": "^11.1.2",
+		"@angular/core": "^11.1.2"
+	},
+	"dependencies": {
+		"tslib": "^2.0.0"
+	},
+	"keywords": [
+		"angular",
+		"ng",
+		"event",
+		"event-bus",
+		"eventEmitter",
+		"listeners",
+		"eventDispatcher",
+		"message-bus",
+		"bus",
+		"events",
+		"message",
+		"simple",
+		"trigger",
+		"on",
+		"off",
+		"ng-simple-event-bus"
+	]
+}
