@@ -30,10 +30,9 @@ constructor(private event: EventBusService) { }
 Use the method `on()` passing an object with name and callback. This method will be executed when the event happens
 ```typescript
 ngOnInit(){
-	this.event.on({'Event Name',(payload: any) => {
-			console.log(payload);
-		}
-	});
+  this.event.on('Event Name',(payload: any) => {
+    console.log(payload);
+  });
 }
 ```
 
@@ -47,7 +46,7 @@ this.event.trigger('Event Name', 'It works!')
 And finally remove the listener from the bus when is not required anymore.
 ```typescript
 ngOnDestroy() {
-	this.event.off('Event Name')
+  this.event.off('Event Name')
 }
 ```
 
